@@ -1,0 +1,26 @@
+$color: red;
+
+@import "menu";
+
+body {
+  color: $color;
+  margin: 0px;
+  padding: 0px;
+}
+
+nav {
+  ul {
+    margin: 0px;
+    color: $color;
+    li{
+      padding: 0px;
+      a{
+        border: 1px solid $color;
+      }
+    }
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
+
+/*# sourceMappingURL=style.scss.map */
